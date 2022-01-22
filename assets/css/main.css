@@ -54,7 +54,16 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
-
+.INPUT{
+	width: 280px;
+	height: 30px;
+	margin-left: 1cm;
+}
+.INP{
+	width: 200px;
+	height: 30px;
+	margin-left: 1cm;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -118,6 +127,7 @@ input, select, textarea {
 		line-height: 45px;
 		margin-bottom: 30px;
 		font-weight: 800;
+		margin-left: 1cm;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
