@@ -83,19 +83,41 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("81S36TZzg9L._SY679_.jpg"), -moz-linear-gradient(top, rgba(19, 3, 48, 0) 75%, rgba(26, 15, 126, 0.65)), url("81S36TZzg9L._SY679_.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(25, 2, 56, 0) 75%, rgba(20, 8, 66, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(68, 2, 28, 0) 75%, rgba(87, 4, 4, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(top, rgba(53, 3, 3, 0) 75%, rgba(63, 1, 1, 0.747)), url("../../images/bg.jpg");
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
 		background-repeat: repeat, no-repeat, auto;
 		position: relative;
-		background-color: #150C07;
+		background-color: #370268;
 		line-height: 1.75em;
 		overflow-x: hidden;
 		overflow-y: auto;
+	
+		
+	}
+	h1 {
+	
+		font-size: 36px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		letter-spacing:0.03px;
+		line-height: 45px;
+		margin-bottom: 30px;
+		font-weight: 800;
+		text-align:left;
+		
+	}
+	p {
+		color:rgb(15, 5, 66);
+		font-size: 20px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		letter-spacing:0.03px;
+		line-height: 45px;
+		margin-bottom: 30px;
+		font-weight: 800;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -123,17 +145,17 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-size: auto, 100% 100%, 250% auto;
 				background-repeat: repeat, no-repeat, no-repeat;
-				background-position: top left, bottom left, 50% 0%;
+				background-position: top left, bottom left, 40% 0%;
 			}
 
 		}
 
 	body, input, select, textarea {
 		font-family: 'Source Sans Pro';
-		font-weight: 400;
+		font-weight: 900;
 		padding: 0;
-		font-size: 13pt;
-		color: rgba(255, 255, 255, 0.6);
+		font-size: 50pt;
+		color: rgba(19, 1, 82, 0.6);
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -147,7 +169,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 30pt;
 			}
 
 		}
@@ -155,13 +177,13 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 30pt;
 			}
 
 		}
 
 	a {
-		color: #fff;
+		color: rgb(193, 221, 252);
 		color: rgba(255, 255, 255, 0.85);
 		text-decoration: none;
 		-moz-transition: color 0.25s ease-in-out;
@@ -183,7 +205,7 @@ input, select, textarea {
 	strong, b {
 		color: #fff;
 		color: rgba(255, 255, 255, 0.85);
-		font-weight: 600;
+		font-weight: 900;
 	}
 
 /* List */
@@ -371,7 +393,7 @@ input, select, textarea {
 		}
 
 			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
+				border-right: solid 30px #ffffff;
 			}
 
 		#main .item {
@@ -809,8 +831,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.poptrox-popup {
-				background: #0a0f1c;
-				box-shadow: 0px 0px 30px 10px rgba(8, 11, 19, 0.85);
+				background: #b0b3bb;
+				box-shadow: 0px 0px 30px 10px rgba(196, 200, 211, 0.85);
 				border: solid 2.5px #fff;
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
